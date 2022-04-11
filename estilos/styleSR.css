@@ -1,0 +1,613 @@
+/* hoja de stilo de Santa Raqueta*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+
+
+* {
+    margin: 2px;
+    padding:2px;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #ffffff;
+    margin: 2% 1% 2% 1%;
+    border: 2px solid rgb(126, 122, 122);
+    font-size: 16px;
+}
+
+/*header*/
+
+header {
+    position: sticky;
+    top: 0;
+}
+.headerstyle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #5f9645;
+    padding: 1px;
+    border: 1px solid rgb(245, 244, 244);         
+}
+
+.logo {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto; 
+    align-items: flex-start;  
+    margin-left: 4%;
+} 
+.logo img {
+    border-radius: 5%;
+}
+
+
+.raqueta  {
+    display: flex;
+    max-width: 55%;
+    box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -moz-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;  
+    flex: 10 1 auto;
+    justify-content: right;
+    align-content: space-between;    
+    margin-right: 5%;    
+    }
+
+.menuprincipal {
+    display: flex;   
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    color: dimgrey;  
+    text-shadow: 0px 4px 7px #150905;    
+}
+
+.itemmenu {
+    font-size: 1.5rem;  
+    padding: 3px;
+    margin: 0 5px 2px 5px; 
+}
+
+/*Fin Header*/
+
+
+/* seccion 1*/
+
+.section1 {
+    background-image: url(../images/fondopresentacioninvertida.jpg);
+    width: fit-content;
+    height: auto;
+    background-position: right;
+    background-repeat: no-repeat; 
+    margin-right: 3%;     
+}
+
+h1 {
+    margin: 2% 0;
+    margin-left: 5%;
+    color: dimgrey;
+    font-family: 'Dancing Script';
+    text-decoration: underline;
+    font-size: 2rem;  
+    font-weight: bold;
+}
+
+h2 {
+    margin-left: 5%;
+    margin-top: 2%;
+    color: dimgrey;
+    font-family: 'Dancing Script', cursive;  
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: dimgrey; 
+    font-size: 1rem;
+    padding-left: 5%;  
+    margin-right: 10%;   
+   
+}
+
+/* fin seccion 1*/
+
+/* seccion 2*/
+
+.section2 {
+    background-image: url(../images/fondopresentacioninvertidaespejo.jpg);
+    background-position: right;
+    background-repeat: no-repeat; 
+    margin-right: 3%; 
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    color: dimgrey;
+    font-family: 'Dancing Script', cursive; 
+    max-width: 70%;
+    align-items: center;
+}
+
+h3 {
+    margin: 2%;
+    text-align: center;    
+}
+
+
+.escuelamujeres img {
+    max-width: max-content;   
+}
+
+
+.escuelahombres img {
+    max-width: max-content; 
+    padding-top: 10%;   
+}  
+
+.escuelita img {
+    max-width: max-content; 
+}
+
+/* fin seccion 2*/
+
+     
+/* seccion 3*/
+
+.inscripcion {
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    text-align: center;
+}
+
+.inscripcion:hover {
+    transition: all 1s;
+    transform: scale(1.3);
+}
+
+.pelota {
+    width: 55px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* fin seccion 3*/
+
+/* footer*/
+
+footer {
+    top: 0;
+}
+
+
+.spanfooter {
+    margin-left: 10%;
+}
+.containerFooter {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+ }
+
+
+.contactoFooter {
+    display:flex;
+    flex-flow: column wrap;
+    list-style: none;    
+}
+
+.redes {
+    width: 30%;
+    height: auto;
+    background-color: grey;
+    border-radius: 25%;
+    margin-left: 5%;
+    margin: 2%;
+}
+
+
+.logofooter {
+    display: flex;
+    align-items: center;
+    width: 80%;    
+} 
+
+.logofooter img { 
+    border-radius: 5%;
+}    
+
+.santaRaquetaLogoFooter {
+    display: flex;
+    max-width: 55%;
+    box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -moz-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+}
+
+   
+
+.derechos {
+    display: flex;
+   justify-content: center;
+   font-size: small;
+}
+
+
+/* footer*/
+
+
+/* escuelas.html*/
+
+#violetas {
+    background-image: url(../images/manchavioleta.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+
+
+#verdes {
+    background-image: url(../images/manchaverde.jpg);
+    border-radius: 50%;  
+    background-repeat: no-repeat; 
+}
+  
+
+#arcoiris {
+    background-image: url(../images/manchamulticolor.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50%;   
+}
+
+.pEscuelas {
+    text-align: justify;
+    padding: 0 10% 0 14%;
+    
+}
+
+.galeria {
+    width: 15%;
+    margin: 3%;
+}
+
+
+/*estilo para sedes.html*/
+
+/* area cancha de tenis con grid*/
+
+.bodySedes {
+    background-color: #ffffff;  
+    border: 2px solid rgb(126, 122, 122);
+}
+
+.cuerpoCanchaTenis {
+    min-height: 100vh;
+    padding: 3%;
+    display: grid;
+    grid-template-areas: 
+    "columnaIzquierda barraArriba barraArriba columnaDerecha"
+    "columnaIzquierda cuadranteNO cuadranteNE columnaDerecha"
+    "columnaIzquierda cuadranteSO cuadranteSE columnaDerecha"
+    "columnaIzquierda barraAbajo barraAbajo columnaDerecha";
+    grid-template-columns: 12.5% 37.5% 37.5% 12.5%;
+    grid-template-rows:320px 400px 400px 320px;
+    gap: 10px;
+}
+
+.barraArriba {
+    grid-area: barraArriba;
+    background-image: url(../images/fondopresentacioninvertida.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 2px solid rgb(126, 122, 122); 
+    display: flex;
+    flex-direction: column; 
+ }
+
+.columnaIzquierda {
+    grid-area: columnaIzquierda;
+    border: 2px solid rgb(126, 122, 122); 
+    display: flex;
+    justify-content: center;
+}    
+
+.cuadranteNO {
+    grid-area: cuadranteNO;
+    border: 2px solid rgb(126, 122, 122);
+    text-align: center;
+    padding-top: 30%;
+}
+
+.cuadranteNO p {
+    font-size: 1.2rem;
+}
+
+.cuadranteNE {
+    grid-area: cuadranteNE;
+    border: 2px solid rgb(126, 122, 122);  
+}
+
+.cuadranteSO {
+    grid-area: cuadranteSO;
+    border: 2px solid rgb(126, 122, 122);
+    text-align: center;
+    padding-top: 30%;
+}
+
+.cuadranteSO p {
+    font-size: 1.2rem;
+}
+
+.cuadranteSE {
+    grid-area: cuadranteSE;
+    border: 2px solid rgb(126, 122, 122); 
+}
+
+.columnaDerecha {
+    grid-area:columnaDerecha;
+    border: 2px solid rgb(126, 122, 122); 
+}
+
+.barraAbajo {
+    grid-area: barraAbajo;
+    background-image: url(../images/fondopresentacion.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 2px solid rgb(126, 122, 122); 
+    display: flex;
+    flex-direction: column; 
+}
+/*fin de area delimitada con grid*/
+
+
+
+/*barra arriba o Header, aunque no esta especificado como tal*/
+
+.h1Sedes {
+    font-size: 1.3rem;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: rgb(82, 78, 78);    
+}
+
+.logoSedes {
+    margin-left: 10%;
+    padding-top: 8%;
+    align-items: flex-start;
+ } 
+
+
+.logoSedes img {
+    display: flex;
+    border-radius: 5%;
+    max-width: 18%;   
+    box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -moz-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+}
+
+
+.pelotitaAnimada {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;  
+    margin-top: 4%;
+    margin-left: 40%;
+    position: absolute;      
+}
+
+.pelotitaAnimadaImagen {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;  
+}
+
+.pelotitaAnimada:hover {
+    animation: pelotitaAnimada 3s
+}
+
+@keyframes pelotitaAnimada {
+    30% {        
+        transform: rotate(-8deg) translateX(-300px) scale(2);
+    }
+    70% {        
+        transform: rotate(45deg) translateX(650px) scale(3)
+    }
+}
+
+/* seccion de redes y tel columnaDerecha*/
+
+.contactoFooterSedes {
+    list-style: none;   
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;  
+}
+
+.redesSedes {
+    width: 35%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25%;
+    border: 0.5px solid black;  
+    align-self: center;
+}
+
+/* seccion de mapas: cuadrantes NO, NE, SO, SU*/
+
+.mapaSedes{
+    width: 100%;
+    height: 100%;
+}
+
+/* seccion de menu navegable*/
+
+.menuprincipalSedes {
+    padding-top: 10;
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    color: dimgrey;  
+    text-shadow: 0px 4px 7px #150905;    
+}
+
+.itemmenuSedes {
+    font-size: 1.3rem;  
+    padding: 18%;
+}
+
+
+/* falso footer*/
+
+.barraAbajo h2 {
+    text-align: center;    
+}
+
+.logofooter {
+    max-width: 35%;
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+
+.santaRaquetaLogoFooter img {
+    display: flex;
+     box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -moz-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+}
+
+
+/* formulario de inscripcion pendiente*/
+
+/* responsive*/
+
+/*para pantallas de mas de 1024*/
+
+@media (max-width: 1024px) {        
+.bodySedes {
+   font-size: 14px;
+    margin: 0;       
+    }
+        
+.cuerpoCanchaTenis {
+    grid-template-columns: 12.5% 37.5% 37.5% 12.5%;
+    grid-template-rows:260px 320px 320px 260px;
+    gap: 7px;
+    }
+}
+
+
+/*pantallas de 768 en adelante*/
+
+@media (max-width: 768px) {
+    
+.cuerpoCanchaTenis {
+    padding: 3%;
+    display: grid;
+    grid-template-areas: 
+    "columnaIzquierda columnaIzquierda"
+    "barraArriba barraArriba"
+    "cuadranteNO cuadranteNE"
+    "cuadranteSO cuadranteSE"
+    "columnaDerecha columnaDerecha"
+    "barraAbajo barraAbajo";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    gap: 5px;
+    }
+
+ 
+
+.menuprincipalSedes {
+    padding-top: 0;
+    display: flex;
+    flex-flow:row nowrap;
+    align-content: space-around;
+}
+
+.itemmenuSedes {
+    font-size: 1rem;  
+    padding: 5%;
+}  
+
+.contactoFooterSedes {
+    list-style: none;   
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row nowrap;  
+    align-content: space-around;
+}
+
+.redesSedes {
+    width: 33%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25%;
+    border: 0.5px solid black;  
+    align-self: center;
+}
+}
+
+
+/*pantallas de 598 en adelante*/
+
+@media (max-width: 598px) {
+
+    .bodySedes {
+        font-size: 12px;
+      }
+    
+    .cuerpoCanchaTenis {
+        min-height: 100vh;
+        padding: 3%;
+        display: grid;
+        grid-template-areas: 
+        "columnaIzquierda"
+        "barraArriba"
+        "cuadranteNO"
+        "cuadranteNE"
+        "cuadranteSO"
+        "cuadranteSE"
+        "columnaDerecha"
+        "barraAbajo";
+        grid-template-columns: 1fr;
+        gap: 3px;
+    }
+
+    .menuprincipalSedes {
+        flex-flow:row wrap;
+       }
+    
+.contactoFooterSedes {
+    flex-flow: row wrap;  
+}
+    
+.redesSedes {
+    width: 20%;
+   }
+  
+}
+.cuadranteNO {
+    grid-area: cuadranteNO;
+    border: 2px solid rgb(126, 122, 122);
+    text-align: center;
+    padding-top: 3%;
+    }
+
+.cuadranteSO {
+    grid-area: cuadranteSO;
+    border: 2px solid rgb(126, 122, 122);
+    text-align: center;
+    padding-top: 3%;
+    }
+
+
+
+
